@@ -4,8 +4,8 @@
 
 ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) ##200 firms and 6 macros download
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
+        | 
+:-------|:-------:
 A  |  B
 
 ```yaml
