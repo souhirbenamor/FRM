@@ -1,3 +1,13 @@
+
+<style>
+    .markdown-body {
+        min-width: 200px;
+        max-width: 790px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+</style>
+
 ## 200 firms and 6 macros download
 
 ```yaml
