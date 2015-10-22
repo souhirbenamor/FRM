@@ -1,5 +1,5 @@
 
-<div id="header" style="width:864px;">
+<div id="header" style="width:1864px;">
 <table>
 	<col width="1800">
     <tr>
