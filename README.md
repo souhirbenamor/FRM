@@ -1,5 +1,6 @@
 
 <table>
+	<col width="800">
     <tr>
         <td>Foo</td>
     </tr>
