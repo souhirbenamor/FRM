@@ -1,0 +1,18 @@
+
+Project : FRM
+
+QuantLet : FRM_download_data
+
+Published in : FRM - Financial Risk Meter
+
+Description : download the data of 206 variables from Yahoo finance and Federal reserve board.
+
+Keywords : automatic, VaR, returns, Yahoo Finance, Federal Reserve Board, quantile regression, lasso, risk
+
+See also :
+
+Author : Thijs Benschop, Lukas Borke, Lining Yu 
+
+Submitted :
+
+Datafile : companylist 2015.csv
