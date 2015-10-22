@@ -1,12 +1,9 @@
 
-<style>
-    .markdown-body {
-        min-width: 200px;
-        max-width: 790px;
-        margin: 0 auto;
-        padding: 30px;
-    }
-</style>
+<table>
+    <tr>
+        <td>Foo</td>
+    </tr>
+</table>
 
 ## 200 firms and 6 macros download
 
