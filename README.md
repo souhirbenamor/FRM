@@ -12,6 +12,7 @@
 			<img src="graphics/quantlogo.png">
 </div>
 
+![bestglm_lambda_down1.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png.png)
 
 ## 200 firms and 6 macros download
 
