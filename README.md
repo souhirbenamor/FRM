@@ -1,7 +1,7 @@
 
 <div id="header" style="width:864px;">
 <table>
-	<col width="800">
+	<col width="1800">
     <tr>
         <td>Foo</td>
     </tr>
