@@ -2,11 +2,9 @@
 ![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
 
 
-![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) ##200 firms and 6 macros download
+![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) *200 firms and 6 macros download*
 
-    t1    | t2
-:-------|:-------:
-A       |  B
+
 
 ```yaml
 Project : FRM
