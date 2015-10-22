@@ -1,10 +1,12 @@
 
+<div id="header" style="width:864px;">
 <table>
 	<col width="800">
     <tr>
         <td>Foo</td>
     </tr>
 </table>
+</div>
 
 ## 200 firms and 6 macros download
 
