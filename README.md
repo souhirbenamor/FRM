@@ -1,3 +1,4 @@
+<style>
 #header {
 	padding: 10px;
 	height: 80px;
@@ -5,10 +6,10 @@
 	border-bottom: 1px solid #CCC;
 	background: #EFEFEF url('banner.png') top left no-repeat;
 }
+</style>
 
 <div id="header">
 			<img src="graphics/quantlogo.png">
-			<h1>Quantnet :: </h1></a>
 </div>
 
 
