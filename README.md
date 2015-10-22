@@ -2,7 +2,7 @@
 ![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
 
 
-![http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png](logo)
+![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png)
 
 <font size=7>200 firms and 6 macros download</font>
 
