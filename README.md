@@ -1,13 +1,4 @@
 
-<div id="header" style="width:1864px;">
-<table>
-	<col width="1800">
-    <tr>
-        <td>Foo</td>
-    </tr>
-</table>
-</div>
-
 ## 200 firms and 6 macros download
 
 ```yaml
@@ -17,9 +8,11 @@ QuantLet : FRM_download_data
 
 Published in : FRM - Financial Risk Meter
 
-Description : download the data of 206 variables from Yahoo finance and Federal reserve board.
+Description : 'download the data of 206 variables from Yahoo finance 
+and Federal reserve board.'
 
-Keywords : automatic, VaR, returns, Yahoo Finance, Federal Reserve Board, quantile regression, lasso, risk
+Keywords : 'automatic, VaR, returns, Yahoo Finance,
+Federal Reserve Board, quantile regression, lasso, risk'
 
 See also :
 
