@@ -4,6 +4,9 @@
 
 ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) <font size=7>200 firms and 6 macros download</font>
 
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+A  |  B
 
 ```yaml
 Project : FRM
