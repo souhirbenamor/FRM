@@ -1,18 +1,7 @@
-<style>
-#header {
-	padding: 10px;
-	height: 80px;
-	background-color: #EFEFEF;
-	border-bottom: 1px solid #CCC;
-	background: #EFEFEF url('banner.png') top left no-repeat;
-}
-</style>
 
-<div id="header">
-			<img src="graphics/quantlogo.png">
-</div>
 
-![bestglm_lambda_down1.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png.png)
+
+![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
 
 ## 200 firms and 6 macros download
 
