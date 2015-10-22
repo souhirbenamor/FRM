@@ -3,7 +3,7 @@
 
 
 ![http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png)
-200 firms and 6 macros download
+<font size="7">200 firms and 6 macros download</font>
 
 
 ```yaml
