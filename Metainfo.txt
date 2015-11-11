@@ -8,7 +8,7 @@ Description : download 206 variables from the internet automatically: 200 larges
 
 Keywords : automatic, VaR, returns, Yahoo Finance, Federal Reserve Board, quantile regression, lasso, risk
 
-See also :
+See also : http://sfb649.wiwi.hu-berlin.de/frm/index.html
 
 Author : Thijs Benschop, Lukas Borke, Lining Yu 
 
