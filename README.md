@@ -17,10 +17,12 @@ largest financial firms stock returns  from Yahoo Finance, 3 macro variables
 3 macro variables (3 month treasury change, slope of yield curve and credit
 spread) from Federal Reserve Board.'
 
-Keywords : 'automatic, VaR, returns, Yahoo Finance,
-Federal Reserve Board, quantile regression, lasso, risk'
+Keywords : 'automatic, VaR, returns, Yahoo Finance, Federal Reserve Board, 
+quantile regression, lasso, risk'
 
-Author : Thijs Benschop, Lukas Borke, Lining Yu 
+See also : http://sfb649.wiwi.hu-berlin.de/frm/index.html
+
+Author : Lukas Borke, Lining Yu, Thijs Benschop
 
 Submitted :
 
