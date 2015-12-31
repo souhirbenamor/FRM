@@ -1,3 +1,4 @@
+
 # --------------------------------------------------------
 # Project:     FRM
 #---------------------------------------------------------
@@ -5,13 +6,8 @@
 #---------------------------------------------------------
 # Published in : FRM: Financial Risk Meter
 #---------------------------------------------------------
-# Description :  download 206 variables from the internet 
-# automatically: 200 largest financial firms'stock returns 
-# from Yahoo Finance, 3 macro variables (VIX, S&P 500 and 
-# iShares Dow Jones US Real Estate) from Yahoo Finance, 
-# another 3 macro variables (3 month treasury change, 
-# slope of yield curve and credit spread) from Federal 
-# Reserve Board.
+# Description : download the data of 206 variables
+# from Yahoo finance and Feferal reserve board.
 # --------------------------------------------------------
 # Keywords : automatic, VaR, returns, Yahoo Finance,
 # Feferal Reserve Board, quantile regression, lasso, risk
@@ -19,6 +15,8 @@
 # See also :
 #---------------------------------------------------------
 # Author : Thijs Benschop, Lukas Borke, Lining Yu 
+#---------------------------------------------------------
+# Submitted :
 #---------------------------------------------------------
 # Datafile : companylist 2015.csv
 #----------------------------------------------------------
@@ -195,5 +193,5 @@ rownames(full_data) = NULL
 final_data          = cbind(Date, full_data)
 # change the working directory to save the data
 #setwd("//clapton.wiwi.hu-berlin.de/frm/data")
-write.csv(format(final_data, scientific = FALSE), file = paste("200_firms_returns_and_scaled_macro_",
-  b, ".csv", sep = ""), row.names = FALSE, quote = FALSE)
+write.csv(format(final_data, scientific = FALSE), file = paste("200_firms_returns_and_scaled_macro_", 
+  b, ".csv", sep = ""), row.names = FALSE, quote = FALSE) 

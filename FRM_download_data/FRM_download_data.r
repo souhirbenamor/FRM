@@ -1,35 +1,3 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/banner.png" alt="Visit QuantNet">](http://quantlet.de/index.php?p=info)
-
-## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **FRM_download_data** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
-
-
-```yaml
-Project : FRM
-
-QuantLet : FRM_download_data
-
-Published in : FRM - Financial Risk Meter
-
-Description : 'download 206 variables from the internet automatically. 200
-largest financial firms stock returns  from Yahoo Finance, 3 macro variables
-(VIX, S&P 500 and iShares Dow Jones US Real Estate) from Yahoo Finance, another
-3 macro variables (3 month treasury change, slope of yield curve and credit
-spread) from Federal Reserve Board.'
-
-Keywords : 'automatic, VaR, returns, Yahoo Finance, Federal Reserve Board, 
-quantile regression, lasso, risk'
-
-See also : http://sfb649.wiwi.hu-berlin.de/frm/index.html
-
-Author : Lukas Borke, Lining Yu, Thijs Benschop
-
-Submitted :
-
-Datafile : companylist 2015.csv
-```
-
-```R
 # clear all variables
 rm(list = ls(all = TRUE))
 
@@ -204,5 +172,3 @@ final_data          = cbind(Date, full_data)
 #setwd("//clapton.wiwi.hu-berlin.de/frm/data")
 write.csv(format(final_data, scientific = FALSE), file = paste("200_firms_returns_and_scaled_macro_",
   b, ".csv", sep = ""), row.names = FALSE, quote = FALSE)
-
-```
