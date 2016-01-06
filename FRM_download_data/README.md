@@ -21,8 +21,6 @@ See also : 'http://sfb649.wiwi.hu-berlin.de/frm/index.html'
 
 Author : Lukas Borke, Lining Yu, Thijs Benschop
 
-FALSE
-
 Datafile : companylist 2015.csv
 
 ```
