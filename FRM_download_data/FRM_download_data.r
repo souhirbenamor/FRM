@@ -14,9 +14,9 @@ lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 # setwd("//clapton.wiwi.hu-berlin.de/frm/codes")
 
 # for symbols in Yahoo finance
-companylist = read.csv("companylist 2015.csv")
+companylist = read.csv("companylist 2016.csv")
 
-# companylist2015 - downloaded from this source
+# companylist2016 - downloaded from this source
 # http://www.nasdaq.com/screening/companies-by-industry.aspx?industry=Finance&sortname=country&sorttype=1
 
 # Array with firm names sorterd by market capitalization
