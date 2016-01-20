@@ -17,4 +17,4 @@ Author: Lukas Borke, Lining Yu, Thijs Benschop
 
 Submitted:
 
-Datafile: companylist 2015.csv
+Datafile: companylist 2016.csv
