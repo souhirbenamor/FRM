@@ -1,4 +1,4 @@
-# Comparison of Configurations I and II for YAML-500 data.
+# VarCoVaR RiskMeter (CopyRight by Lukas Borke)
 
 * **Configuration I**: description and keywords.
 * **Configuration II**: all fields.
