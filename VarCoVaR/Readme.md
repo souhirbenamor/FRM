@@ -1,8 +1,8 @@
-# VarCoVaR RiskMeter (CopyRight by Lukas Borke)
+# VarCoVaR RiskMeter 2.0 (CopyRight by Lukas Borke)
 
 * **Black dots**: Lambda time series
-* **Red dots**: VarCoVaR time series.
-* **Green dots**: Squares of euclidean norm of the Beta vectors (from L1-Q-regression).
+* **Red dots**: VarCoVaR time series
+* **Green dots**: Squares of euclidean norm of the Beta vectors (from L1-Q-regression)
 
 
 ### 4 Companies (S&P 500) with the highest MarketCap over the last 8 years
@@ -13,7 +13,7 @@
 
 
 ### The VarCoVaR RiskMeter shows
-* a better pronounced behaviour
+* a better pronounced behaviour (than the old FRM version)
 * market highs and lows are better captured
 * clear, concise statistical definition and derivation: conditional variance of CoVaR 
 * better spread between the extreme values
