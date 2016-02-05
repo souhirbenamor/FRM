@@ -6,8 +6,10 @@
 # Easy to interpret
 
 ## Ball_Hall
-![](https://github.com/QuantLet/TM_Clustering/blob/master/Plots/YAML_500_12measures_2metaconfigs/plot_Ball_Hall_conf1.png)
-![](https://github.com/QuantLet/TM_Clustering/blob/master/Plots/YAML_500_12measures_2metaconfigs/plot_Ball_Hall_conf2.png)
+![](https://github.com/QuantLet/FRM/blob/master/VarCoVaR/c1_risk.png)
+![](https://github.com/QuantLet/FRM/blob/master/VarCoVaR/c2_risk.png)
+
+
 
 * The mean, through all the clusters, of their mean dispersion.
 * The range is [0,+8).
