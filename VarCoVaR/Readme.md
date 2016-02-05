@@ -1,7 +1,8 @@
 # VarCoVaR RiskMeter (CopyRight by Lukas Borke)
 
-* **Configuration I**: description and keywords.
-* **Configuration II**: all fields.
+* **Black dots**: Lambda time series
+* **Red dots**: VarCoVaR time series.
+* **Green dots**: Squares of euclidean norm of the Beta vektors (from L1-Q-regression).
 
 # Easy to interpret
 
