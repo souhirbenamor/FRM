@@ -15,6 +15,7 @@
 ### The VarCoVaR RiskMeter shows
 * a better pronounced behaviour
 * market highs and lows are better captured
+* clear, concise statistical definition and derivation: conditional variance of CoVaR 
 * better spread between the extreme values
 * more stability over different companies but still different and individual characterization
 * clear correlation with the Lambda structure
