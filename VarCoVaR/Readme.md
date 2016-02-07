@@ -2,6 +2,26 @@
 
 * **Black dots**: Lambda time series
 * **Red dots**: VarCoVaR time series
+
+![](https://github.com/QuantLet/FRM/blob/master/VarCoVaR/plot_ave_l_VarCoVaR.png)
+
+### The VarCoVaR RiskMeter shows
+* a better pronounced behaviour (than the old FRM version)
+* market highs and lows are better captured
+* clear, concise statistical definition and derivation: conditional variance of CoVaR 
+* better spread between the extreme values
+* more stability over different companies but still different and individual characterization
+* clear correlation with the Lambda structure
+* incorporates the whole market volatility and not only the Betas and Lambdas from L1-Q-regression
+* the financial crisis from 2008 is much better pronounced (peak value)
+* shows also the volatility and uncertainty of the CoVaR of any given company/asset
+* Many interesting other features waiting for being analysed, investigated and evaluated ...
+
+### Stay tuned ...
+
+
+* **Black dots**: Lambda time series
+* **Red dots**: VarCoVaR time series
 * **Green dots**: Squares of euclidean norm of the Beta vectors (from L1-Q-regression)
 
 
@@ -35,18 +55,3 @@
 ![](https://github.com/QuantLet/FRM/blob/master/VarCoVaR/plot184.png)
 ![](https://github.com/QuantLet/FRM/blob/master/VarCoVaR/plot193.png)
 
-
-
-### The VarCoVaR RiskMeter shows
-* a better pronounced behaviour (than the old FRM version)
-* market highs and lows are better captured
-* clear, concise statistical definition and derivation: conditional variance of CoVaR 
-* better spread between the extreme values
-* more stability over different companies but still different and individual characterization
-* clear correlation with the Lambda structure
-* incorporates the whole market volatility and not only the Betas and Lambdas from L1-Q-regression
-* the financial crisis from 2008 is much better pronounced (peak value)
-* shows also the volatility and uncertainty of the CoVaR of any given company/asset
-* Many interesting other features waiting for being analysed, investigated and evaluated ...
-
-### Stay tuned ...
