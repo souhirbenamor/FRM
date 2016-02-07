@@ -7,11 +7,15 @@
 
 ### The VarCoVaR RiskMeter shows
 * a better pronounced behaviour (than the old FRM version)
+* Pearson correlation between the both time series: 0.953
+* clear visual correlation with the Lambda structure
 * market highs and lows are better captured
-* clear, concise statistical definition and derivation: conditional variance of CoVaR 
+* clear, concise statistical definition and derivation: conditional variance of CoVaR
+* clear economic interpretation: volatility of the (Co)VaR according to the covariates
+* in the opposite to the Lambda index the VarCoVaR scale is the value domain of the (Co)VaR
+* Lambda value domain does not start with zero: clear disadvantage in comparison with VarCoVaR. "No risk" should start with zero.
 * better spread between the extreme values
 * more stability over different companies but still different and individual characterization
-* clear correlation with the Lambda structure
 * incorporates the whole market volatility and not only the Betas and Lambdas from L1-Q-regression
 * the financial crisis from 2008 is much better pronounced (peak value)
 * shows also the volatility and uncertainty of the CoVaR of any given company/asset
