@@ -21,8 +21,8 @@
 * shows also the volatility and uncertainty of the CoVaR of any given company/asset
 * Many interesting other features waiting for being analysed, investigated and evaluated ...
 
-### Stay tuned ...
 
+### Lambda vs. VarCoVaR for individual companies ...
 
 * **Black dots**: Lambda time series
 * **Red dots**: VarCoVaR time series
@@ -59,4 +59,6 @@
 ![](https://github.com/QuantLet/FRM/blob/master/VarCoVaR/plot184.png)
 ![](https://github.com/QuantLet/FRM/blob/master/VarCoVaR/plot193.png)
 
-### Look for other companies into the [PNG files above... ](https://github.com/QuantLet/FRM/tree/master/VarCoVaR)
+### Look for other companies (total of 120) into the [PNG files above... ](https://github.com/QuantLet/FRM/tree/master/VarCoVaR)
+
+### Stay tuned ...
