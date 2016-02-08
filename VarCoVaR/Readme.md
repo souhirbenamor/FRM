@@ -3,11 +3,11 @@
 * **Black dots**: Lambda time series
 * **Red dots**: VarCoVaR time series
 
-![](https://github.com/QuantLet/FRM/blob/master/VarCoVaR/plot_ave_l_VarCoVaR.png)
+![](https://github.com/QuantLet/FRM/blob/master/VarCoVaR/plot_ave_l_VarCoVaR_120.png)
 
 ### The VarCoVaR RiskMeter shows
 * a better pronounced behaviour (than the old FRM version)
-* Pearson correlation between the both time series: 0.953
+* Pearson correlation between the both time series: 0.966
 * clear visual correlation with the Lambda structure
 * market highs and lows are better captured
 * clear, concise statistical definition and derivation: conditional variance of CoVaR
@@ -59,3 +59,4 @@
 ![](https://github.com/QuantLet/FRM/blob/master/VarCoVaR/plot184.png)
 ![](https://github.com/QuantLet/FRM/blob/master/VarCoVaR/plot193.png)
 
+### Look for other companies into the [PNG files above... ](https://github.com/QuantLet/FRM/tree/master/VarCoVaR)
