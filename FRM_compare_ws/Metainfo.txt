@@ -6,7 +6,7 @@ Description: 'plot 100 firms based FRM with window size 63 and window size 126, 
 
 Keywords: 'plot, comparison, firms, financial, risk, penalty, tail, correlation'
 
-See also: FRM_compare_nf
+See also: FRM_compare_nf, FRM_compare_of
 
 Author: Lining Yu
 

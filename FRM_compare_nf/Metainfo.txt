@@ -6,7 +6,7 @@ Description: 'plot FRM with 100 firms and with 200 firms, show the correlation o
 
 Keywords: 'plot, comparison, firms, financial, risk, penalty, tail, correlation'
 
-See also: FRM_compare_ws
+See also: FRM_compare_ws, FRM_compare_nf
 
 Author: Lining Yu
 
