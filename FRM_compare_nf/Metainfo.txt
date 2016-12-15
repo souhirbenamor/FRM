@@ -1,0 +1,15 @@
+Name of Quantlet: FRM_compare_nf
+
+Published in: 'FRM: A Financial Risk Meter based on penalizing tail events occurrence'
+
+Description: 'plot FRM with 100 firms and with 200 firms, show the correlation of them'
+
+Keywords: 'plot, comparison, firms, financial, risk, penalty, tail, correlation'
+
+See also: FRM_compare_ws
+
+Author: Lining Yu
+
+Submitted: THU, December 15 2016 by Lining Yu
+
+Datafile: FRM_comparison.csv

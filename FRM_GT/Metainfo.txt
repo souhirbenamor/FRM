@@ -1,0 +1,15 @@
+Name of Quantlet: FRM_GT
+
+Published in: 'FRM: A Financial Risk Meter based on penalizing tail events occurrence'
+
+Description: 'compare the FRM and Google Trends (GT) by using correlation analysis and causality analysis, plot the FRM and GT series, plot the autocorrelation function of residuals'
+
+Keywords: 'plot, acf, causality, correlation, residuals, risk, penalty, tail'
+
+See also: FRM_VIX, FRM_SRISK
+
+Author: Lining Yu
+
+Submitted: THU, December 15 2016 by Lining Yu
+
+Datafile: FRM_VIX_SRISK_GT.csv

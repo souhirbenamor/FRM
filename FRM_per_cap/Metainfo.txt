@@ -1,0 +1,13 @@
+Name of Quantlet: FRM_per_cap
+
+Published in: 'FRM: A Financial Risk Meter based on penalizing tail events occurrence'
+
+Description: plot the percentage of market capitalization of 700 firms
+
+Keywords: 'plot, percentage, firms, market, capitalization, financial, penalty, risk, tail,'
+
+Author: Lining Yu
+
+Submitted: THU, December 15 2016 by Lining Yu
+
+Datafile: companylist 2016.csv
