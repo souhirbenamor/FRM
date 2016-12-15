@@ -4,7 +4,7 @@ Published in: 'FRM: A Financial Risk Meter based on penalizing tail events occur
 
 Description: 'plot FRM and lambda of one firm, i.e. the lambda series of Wells Fargo (WFC)'
 
-Keywords: 'plot, comparison, firms, financial, risk, tail, LASSO, L1-norm penalty'
+Keywords: 'plot, comparison, firm, financial, risk, tail, LASSO, L1-norm penalty'
 
 See also: FRM_compare_nf, FRM_compare_ws
 
