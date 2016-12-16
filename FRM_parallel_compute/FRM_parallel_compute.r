@@ -251,15 +251,15 @@ lambda_all = matrix(unlist(lambda), ncol = nf, byrow = FALSE)
 FRM = apply(lambda_all, 1, mean)
 
 ### combine the old FRM data and the updated data
-old_FRM = as.matrix(read.csv("lambda_mean_206vars_2016-11-15.csv")[, 2])
-dt_old = read.csv("lambda_mean_206vars_2016-11-15.csv")[, 1]
+old_FRM = as.matrix(read.csv("lambda_mean_106vars_2016-11-15.csv")[, 2])
+dt_old = read.csv("lambda_mean_106vars_2016-11-15.csv")[, 1]
 dt_old = strptime(as.character((dt_old)), "%Y-%m-%d")
 dt_old = as.Date(dt_old, format = "%Y-%m-%d")
 updated_dt = as.data.frame(c(dt_old, dt))
 updated_FRM = c(old_FRM, FRM)
 Final_FRM = cbind(updated_dt, updated_FRM)
 colnames(Final_FRM) = c("date", "price")
-write.csv(format(Final_FRM, scientific = FALSE), file = paste("lambda_mean_206vars_", 
+write.csv(format(Final_FRM, scientific = FALSE), file = paste("lambda_mean_106vars_", 
     b, ".csv", sep = ""), row.names = FALSE, quote = FALSE)
 
 ### show the current risk level

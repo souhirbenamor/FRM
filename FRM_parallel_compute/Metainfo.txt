@@ -10,4 +10,4 @@ Author: Lining Yu
 
 Submitted: THU, December 15 2016 by Lining Yu
 
-Datafile: companylist 2016.csv, lambda_mean_206vars_2016-11-15.c
+Datafile: companylist 2016.csv, lambda_mean_106vars_2016-11-15.csv
