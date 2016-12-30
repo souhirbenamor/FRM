@@ -1,9 +1,9 @@
 
 Name of Quantlet: FRM_lambda_series
 
-Published in: 'FRM - Financial Risk Meter'
+Published in: 'FRM: A Financial Risk Meter based on penalizing tail events occurrence'
 
-Description: 'generates the averaged lambda series by using 200 largest financial firms stock returns and 6 macro variables.'
+Description: 'generates the averaged lambda series by using 100 largest financial firms stock returns and 6 macro variables.'
 
 Keywords: 'returns, linear, quantile, LASSO, L1-norm penalty'
 
@@ -13,4 +13,4 @@ Author: Lining Yu, Thijs Benschop
 
 Submitted: Mon, August 29 2016 by Lining Yu
 
-Datafile: 200_firms_returns_and_scaled_macro_2016-01-07.csv
+Datafile: 100_firms_returns_and_scaled_macro_2016-11-15.csv

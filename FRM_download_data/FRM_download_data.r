@@ -8,7 +8,7 @@ lapply(libraries, function(x) if (!(x %in% installed.packages())) {
 })
 lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 
-##################################### Part 1 download 200 firms ###################################
+##################################### Part 1 download 100 firms ###################################
 
 # set the working directory
 # setwd("//clapton.wiwi.hu-berlin.de/frm/codes")
@@ -22,11 +22,11 @@ companylist = read.csv("companylist 2016.csv")
 # Array with firm names sorterd by market capitalization
 firm_names = as.character(companylist[, 1])  
 
-# starting date for 200 firms´
+# starting date for 100 firms
 a   = "2006-12-29"
 # starting date for macro variables, 1 day lag in data retrieval
 a_m = "2006-12-28"
-# date for 200 firms
+# date for 100 firms
 b   = Sys.Date()
 # date for macro variables, 1 day lag
 b_m = Sys.Date() - 1
@@ -41,7 +41,7 @@ n       = length(firm_names)
 # counter (initial value is 1)
 s       = 1
 # number of firms used
-max_num = 200
+max_num = 100
 
 # creating initial matrix for all firms and all time points
 firms_closed_price           = matrix(0, time_points, n)
@@ -50,7 +50,8 @@ colnames(firms_closed_price) = firm_names
 # sometimes data for a company can not be captured (bad internet connection,
 # problems with correct name) in this case extend this list the list can vary
 # from time to time
-bad_list = c("ZIONZ", "SNFCA", "KMPA", "CATYW", "MBFIP", "HAWKB", "JLL")
+bad_list = c("ZIONZ", "SNFCA", "KMPA", "CATYW", "MBFIP", "HAWKB", "JLL", "SYA", 
+        "NPBC", "MHFI", "SFG", "FNFV", "FNFG", "FMER", "BBCN", "SFN", "WIBC", "RSE")
 
 # Main loop : data from yahoo to firms_closed_price
 for (i in 1:n) {
@@ -83,11 +84,11 @@ cs = colSums(firms_closed_price)
 # the sum is larger than 0
 length(cs[cs > 0])
 
-# taking submatrix from firms_closed_price with 200 companies
+# taking submatrix from firms_closed_price with 100 companies
 collected_firms = names(cs[cs > 0])
 data_firms      = firms_closed_price[, collected_firms]
 
-# transform the company_prices_200 into log returns
+# transform the company_prices_100 into log returns
 returns_final           = diff(log(data_firms))
 rownames(returns_final) = rownames(example_time)
 
@@ -157,7 +158,7 @@ for (i in 1:nncol) {
 }
 colnames(m) = c("^VIX", "^GSPC", "IYR", "3MTCM", "Yield", "Credit")
 
-####################### Part 3 combine 200 firms and 6 macro variables #########################
+####################### Part 3 combine 100 firms and 6 macro variables #########################
 firms_data          = returns_final
 macro_data          = m
 full_data           = cbind(firms_data, macro_data)
@@ -170,5 +171,5 @@ rownames(full_data) = NULL
 final_data          = cbind(Date, full_data)
 # change the working directory to save the data
 #setwd("//clapton.wiwi.hu-berlin.de/frm/data")
-write.csv(format(final_data, scientific = FALSE), file = paste("200_firms_returns_and_scaled_macro_",
+write.csv(format(final_data, scientific = FALSE), file = paste("100_firms_returns_and_scaled_macro_",
   b, ".csv", sep = ""), row.names = FALSE, quote = FALSE)
