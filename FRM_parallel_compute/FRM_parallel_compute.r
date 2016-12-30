@@ -10,7 +10,7 @@ lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 source("FRM_qrL1.r")
 source("quantilelasso.r")
 detectCores()
-registerDoParallel(cores = 4)
+registerDoParallel(cores = 32)
 getDoParWorkers()
 ### set the number of working days needed to be calculate
 wd = 1
