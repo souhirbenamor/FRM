@@ -5,7 +5,7 @@ graphics.off()
 # setwd('C:/...')
 
 ##################### Cap Plot ###################
-cap = read.csv("companylist 2016.csv")[, 4][1:700]
+cap = read.csv("companylist2016.csv")[, 4][1:700]
 s_cap = rep(0, length(cap))
 sum_cap = 0
 for (i in 1:length(cap)) {

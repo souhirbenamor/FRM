@@ -10,4 +10,4 @@ Author: Lining Yu
 
 Submitted: THU, December 15 2016 by Lining Yu
 
-Datafile: companylist 2016.csv
+Datafile: companylist2016.csv
