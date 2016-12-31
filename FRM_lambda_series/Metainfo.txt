@@ -7,7 +7,7 @@ Description: 'generates the averaged lambda series by using 100 largest financia
 
 Keywords: 'returns, linear, quantile, LASSO, L1-norm penalty'
 
-See also: 'http://sfb649.wiwi.hu-berlin.de/frm/index.html'
+See also: 'http://sfb649.wiwi.hu-berlin.de/frm/'
 
 Author: Lining Yu, Thijs Benschop
 
